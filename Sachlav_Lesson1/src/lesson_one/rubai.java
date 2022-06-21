@@ -1,3 +1,5 @@
+package lesson_one;
+
 public class rubai {
     public static void main(String[] args) {
         System.out.println("        Рубаи");
