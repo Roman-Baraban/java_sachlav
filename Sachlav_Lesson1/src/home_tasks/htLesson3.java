@@ -20,7 +20,7 @@ public class htLesson3 {
         System.out.println("y = " + y);
         System.out.println("z = " + z);
 
-        z = x++ + y*5;
+        z = x++ + y *5 ;
         System.out.println("x = " + x);
         System.out.println("y = " + y);
         System.out.println("z = " + z);
