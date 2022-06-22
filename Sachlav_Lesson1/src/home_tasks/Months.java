@@ -52,8 +52,7 @@ public class Months {
             case 12:
                 System.out.println("Декабрь");
                 break;
-            default:
-                System.out.println("Ну я же просил - от 1 до 12");
+
 
 
         }
