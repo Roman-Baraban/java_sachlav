@@ -9,6 +9,12 @@ public class Months {
         System.out.println("Введи число от 1 до 12");
         int n = sc.nextInt();
 
+
+        while (n < 1 || n > 12) {
+            System.out.println("Это не число от 1 до 12, попробуй еще раз");
+            n = sc.nextInt();
+        }
+
         switch (n) {
             case 1:
                 System.out.println("Январь");
