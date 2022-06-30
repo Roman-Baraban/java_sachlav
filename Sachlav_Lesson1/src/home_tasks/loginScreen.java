@@ -32,7 +32,7 @@ public class loginScreen {
 
         while (true){
             passcounter+=1;
-            if (passcounter==3){
+            if (passcounter==5){
                 System.out.println("Превышено максимальное количество попыток ввода пароля. Надо было на бумажке записать что-ли.");
                 break;
             }
