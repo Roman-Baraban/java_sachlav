@@ -7,7 +7,7 @@ public class MultTable {
                 System.out.println();
             }
             for (int j = 1; j <= 10; j++) {
-                System.out.printf(" " + i*j);
+                System.out.printf("%4d", i * j);
             }
         }
     }
