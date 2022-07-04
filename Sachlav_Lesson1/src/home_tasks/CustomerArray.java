@@ -27,18 +27,19 @@ public class CustomerArray {
         }
         avg = sum/arr.length;
 
-        System.out.println("Максимум " + max);
-        System.out.println("Минимум " + min);
-        System.out.println("Сумма " + sum);
-        System.out.println("Среднее " + avg);
+        System.out.println("Максимум " + (int)max);
+        System.out.println("Минимум " + (int)min);
+        System.out.println("Сумма " + (int)sum);
+        System.out.println("Среднее " + (int)avg);
         System.out.print("Нечетные ");
 
         for(double j: arr){
-            if (j%2 != 0){
-                System.out.print(j + " ");
+            if ((int)j%2 != 0){
+                System.out.print((int)j + " ");
             }
 
         }
+
 
 
 
